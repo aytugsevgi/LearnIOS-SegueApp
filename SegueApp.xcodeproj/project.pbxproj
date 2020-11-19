@@ -13,6 +13,7 @@
 		2555637C2565D2D500913678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2555637A2565D2D500913678 /* Main.storyboard */; };
 		2555637E2565D2D600913678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2555637D2565D2D600913678 /* Assets.xcassets */; };
 		255563812565D2D600913678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2555637F2565D2D600913678 /* LaunchScreen.storyboard */; };
+		255563892565D40100913678 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255563882565D40100913678 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2555637D2565D2D600913678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		255563802565D2D600913678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		255563822565D2D600913678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255563882565D40100913678 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2555637D2565D2D600913678 /* Assets.xcassets */,
 				2555637F2565D2D600913678 /* LaunchScreen.storyboard */,
 				255563822565D2D600913678 /* Info.plist */,
+				255563882565D40100913678 /* SecondViewController.swift */,
 			);
 			path = SegueApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				255563892565D40100913678 /* SecondViewController.swift in Sources */,
 				255563792565D2D500913678 /* ViewController.swift in Sources */,
 				255563752565D2D500913678 /* AppDelegate.swift in Sources */,
 				255563772565D2D500913678 /* SceneDelegate.swift in Sources */,
